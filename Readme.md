@@ -9,7 +9,7 @@ requests, beautifulsoup
 
 ## Usage
 
-``from futbol import Futbol
+```from futbol import Futbol
 
 fut = Futbol()
 
@@ -21,4 +21,4 @@ league.results
 league.next_rounds      # return a dict with rounds with matches to come
 league.results          # return a dict with rounds with matches already played
 league.stands           # return a list with the standings, points, goals and other data
-`` 
+``` 
